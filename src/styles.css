@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+  color: white;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+}
+
+.cart-widget {
+  display: flex;
+  align-items: center;
+}
+
+.cart-widget img {
+  width: 24px;
+  height: 24px;
+}
+
+.cart-widget span {
+  margin-left: 5px;
+  color: white;
+}
+
+.item-list-container {
+  padding: 20px;
+  text-align: center;
+}
